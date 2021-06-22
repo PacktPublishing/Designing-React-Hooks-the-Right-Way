@@ -1,0 +1,33 @@
+{
+  "name": "designing-react-hooks",
+  "version": "0.0.1",
+  "description": "Code for Designing React Hooks The Right Way",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "author": "Fang Jin",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/react-hooks": "^7.0.0",
+    "babel-jest": "^27.0.1",
+    "jest": "^27.0.1",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTests.js"
+    ]
+  }
+}
