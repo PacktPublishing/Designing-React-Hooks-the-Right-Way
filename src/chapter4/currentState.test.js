@@ -78,6 +78,7 @@ describe('Use State', () => {
     waitFor(() => { jest.runAllTimers() })
     expect(clicked).toHaveReturnedTimes(3)
     expect(clicked).toHaveBeenLastCalledWith(0)
+    expect(rendered).toHaveReturnedTimes(3)
     expect(rendered).toHaveBeenLastCalledWith(1)
   })
 
